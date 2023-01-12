@@ -32,10 +32,9 @@ const auth = require("./auth");
 const socketManager = require("./server-socket");
 
 // Server configuration below
-// TODO change connection URL after setting up your team database
-const mongoConnectionURL = "FILL ME IN";
-// TODO change database name to the name you chose
-const databaseName = "FILL ME IN";
+const mongoConnectionURL =
+  "mongodb+srv://alvinchen:Mongomango0w0@cluster0.zhyjhkb.mongodb.net/?retryWrites=true&w=majority";
+const databaseName = "Cluster0";
 
 // connect to mongodb
 mongoose
